@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "master.css",
+	"sources": [
+		"../sass/master.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,CAAC,CAAC;CACE,UAAU,EAAC,GAAG;CAIf;;AALH,AAEI,CAFH,AAEI,MAAM,CAAA;CACH,UAAU,EAAE,KAAK;CACpB"
+}
