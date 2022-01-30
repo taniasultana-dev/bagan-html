@@ -1,6 +1,2 @@
-a {
-    background:red;
-    &:hover{
-        background: white;
-    }
-  }
+@import "./utils/variables";
+@import './utils/common';
