@@ -3,3 +3,21 @@
     padding: 0;
     outline: 0;
 }
+
+a, a:hover {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}

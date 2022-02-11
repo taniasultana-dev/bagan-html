@@ -1,0 +1,38 @@
+#header {
+    .header-top {
+        background-color: $primary;
+        color: $white;
+        font-family: $body-font;
+        padding: 12px 0;
+        font-size: 14px;
+
+        a {
+            color: $white;
+        }
+
+        .adddress {
+            li {
+                display: inline-block;
+                &:first-child {
+                    padding-right: 55px;
+                } 
+
+                i {
+                    padding-right: 10px;
+                }
+            }
+        }
+
+        .social-media {
+            a {
+                transition: .2s;
+                padding-left: 24px;
+
+                &:hover {
+                    color: $primary-dark;
+                }
+            }
+        }
+
+    }
+}

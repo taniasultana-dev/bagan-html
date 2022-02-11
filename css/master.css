@@ -3,3 +3,54 @@
 	padding: 0;
 	outline: 0;
 }
+
+a, a:hover {
+	text-decoration: none;
+}
+
+ul, ol, li {
+	list-style-type: none;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+#header .header-top {
+	background-color: #008435;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	padding: 12px 0;
+	font-size: 14px;
+}
+
+#header .header-top a {
+	color: #ffffff;
+}
+
+#header .header-top .adddress li {
+	display: inline-block;
+}
+
+#header .header-top .adddress li:first-child {
+	padding-right: 55px;
+}
+
+#header .header-top .adddress li i {
+	padding-right: 10px;
+}
+
+#header .header-top .social-media a {
+	transition: .2s;
+	padding-left: 24px;
+}
+
+#header .header-top .social-media a:hover {
+	color: #004b1e;
+}
