@@ -1,0 +1,19 @@
+#header{
+    .header-top{
+        background-color: $primary-bg;
+        padding: 5px 10px;
+        color: $secondary-bg;
+        
+        font-size: 14px;
+    }
+
+    .address li{
+       display: inline-block;
+       &:last-child{
+           margin-left: 20px;
+       }
+       a{
+        color: $secondary-bg;
+       }
+    }
+}

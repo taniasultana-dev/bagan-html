@@ -1,7 +1,42 @@
-a {
-	background: red;
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
 }
 
-a:hover {
-	background: white;
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+#header .header-top {
+	background-color: #008435;
+	padding: 5px 10px;
+	color: #F6F8FD;
+	font-size: 14px;
+}
+
+#header .address li {
+	display: inline-block;
+}
+
+#header .address li:last-child {
+	margin-left: 20px;
+}
+
+#header .address li a {
+	color: #F6F8FD;
 }
