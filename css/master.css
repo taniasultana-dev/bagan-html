@@ -14,7 +14,7 @@
 	justify-content: space-between;
 }
 
-a {
+a, a:hover {
 	text-decoration: none;
 }
 
@@ -26,6 +26,7 @@ ul, ol, li {
 	background-color: #008435;
 	padding: 5px 10px;
 	color: #F6F8FD;
+	font-family: open sans;
 	font-size: 14px;
 }
 
@@ -39,4 +40,8 @@ ul, ol, li {
 
 #header .address li a {
 	color: #F6F8FD;
+}
+
+#header .address li i {
+	margin-right: 5px;
 }
