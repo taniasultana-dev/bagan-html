@@ -1,0 +1,25 @@
+.icon-box {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    i {
+        font-size: 30px;
+        color: $primary;
+    }
+
+    h3 {
+        font-size: 15px;
+        font-family: $primary-font;
+        font-weight: 600;
+        color: $heading;
+        line-height: 18px;
+    }
+
+    p {
+        color: $text;
+        font-size: 14px;
+        line-height: 26px;
+        font-family: $primary-font
+    }
+}
