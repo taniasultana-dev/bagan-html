@@ -30,18 +30,22 @@ ul, ol, li {
 	font-size: 14px;
 }
 
-#header .address li {
-	display: inline-block;
-}
-
-#header .address li:last-child {
-	margin-left: 20px;
-}
-
-#header .address li a {
+#header a {
 	color: #F6F8FD;
 }
 
-#header .address li i {
+#header address li {
+	display: inline-block;
+}
+
+#header address li:last-child {
+	margin-left: 20px;
+}
+
+#header address li a {
+	color: #F6F8FD;
+}
+
+#header address li i {
 	margin-right: 5px;
 }
