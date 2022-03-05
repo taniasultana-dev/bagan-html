@@ -1,24 +1,75 @@
 #header{
-    .header-top{
+    .header-top {
         background-color: $primary-bg;
         padding: 5px 10px;
         color: $secondary-bg;
         font-family: open sans;
         font-size: 14px;
+
+        a {
+            color: $secondary-bg;
+        }
+
+        .address li {
+            display: inline-block;
+
+            &:last-child {
+                margin-left: 20px;
+            }
+           
+            a {
+                color: $secondary-bg;
+
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .social-media a {
+            transition: 2s;
+            padding-left: 15px;
+            margin-right: 20px;
+            
+        
+            &:hover{
+                color: $headding-clr;
+                
+            } 
+        }
+        
     }
-    a{
-        color: $secondary-bg;
-    }
-    address li{
-       display: inline-block;
-       &:last-child{
-           margin-left: 20px;
-       }
-       a{
-        color: $secondary-bg;
-       }
-       i{
-        margin-right: 5px;
-       }
+    .header-middile {
+        padding: 35px 0;
+        font-size: 14px;
+        
+        .icon-box {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+
+            .icon {
+                padding-right: 5px;
+                font-size: 30px;
+                color: $primary-bg;
+            }
+            
+            h3 {
+                font-size: 18px;
+                color:$headding-clr;
+            }
+
+            p {
+                padding-top: 10px;
+                font-size: 15px;
+            }         
+            
+        }
+
+        
+        
+
+        
     }
 }
+    

@@ -9,12 +9,30 @@
 }
 .row{
     display: flex;
-    justify-content: space-between;
 }
+
 a, a:hover {
     text-decoration: none;
 }
 
+
 ul,ol ,li{
     list-style: none;
+}
+.col{
+    flex-grow: 1;
+    width: 100%;
+}
+
+.col-6{
+    flex-basis: 50%;
+}
+.col-3{
+    flex-basis: 25%;
+}
+.align-right{
+    text-align: right;
+}
+.pl-60{
+    padding-left: 60px;
 }
