@@ -12,8 +12,17 @@ ul, ol, li {
     list-style-type: none;
 }
 
+a, span, label, input, textarea, button {
+    display: inline-block;
+}
+
 .container {
     max-width: 1140px;
+    margin: 0 auto;
+}
+
+.inner_section {
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -23,6 +32,10 @@ ul, ol, li {
 
 .align-right {
     text-align: right;
+}
+
+.align-center {
+    text-align: center;
 }
 
 .col {

@@ -1,0 +1,11 @@
+#banner-section {
+    background-color: green;
+    background: url('#{$img_src}/banner_slider_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .overlay {
+        padding: 220px 0; 
+        background-color: rgba(0, 0, 0, .4);
+    }
+}

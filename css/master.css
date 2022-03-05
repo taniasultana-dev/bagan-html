@@ -12,8 +12,17 @@ ul, ol, li {
 	list-style-type: none;
 }
 
+a, span, label, input, textarea, button {
+	display: inline-block;
+}
+
 .container {
 	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.inner_section {
+	max-width: 900px;
 	margin: 0 auto;
 }
 
@@ -23,6 +32,10 @@ ul, ol, li {
 
 .align-right {
 	text-align: right;
+}
+
+.align-center {
+	text-align: center;
 }
 
 .col {
@@ -92,7 +105,34 @@ ul, ol, li {
 }
 
 #header .header-middle {
-	padding: 30px 0;
+	padding: 30px 0 70px 0;
+}
+
+#header nav .container {
+	position: relative;
+}
+
+#header .nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	background-color: #008435;
+	position: absolute;
+	width: 100%;
+	transform: translateY(-50%);
+}
+
+#header .nav-wrapper a {
+	color: #ffffff;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+#header .nav-wrapper ul li {
+	display: inline-block;
+}
+
+#header .nav-wrapper .header-cta {
+	background-color: black;
 }
 
 .icon-box {
@@ -119,4 +159,16 @@ ul, ol, li {
 	font-size: 14px;
 	line-height: 26px;
 	font-family: "Poppins", sans-serif;
+}
+
+#banner-section {
+	background-color: green;
+	background: url("../images/banner_slider_1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#banner-section .overlay {
+	padding: 220px 0;
+	background-color: rgba(0, 0, 0, 0.4);
 }
