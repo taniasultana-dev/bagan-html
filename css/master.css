@@ -9,6 +9,11 @@
 	margin: 0 auto;
 }
 
+.inner-section {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
 .row {
 	display: flex;
 }
@@ -32,6 +37,10 @@ ul, ol, li {
 
 .col-3 {
 	flex-basis: 25%;
+}
+
+.align-center {
+	text-align: center;
 }
 
 .align-right {
@@ -64,6 +73,7 @@ ul, ol, li {
 
 #header .header-top .address li a {
 	color: #F6F8FD;
+	padding-right: 30px;
 }
 
 #header .header-top .address li a i {
@@ -81,7 +91,7 @@ ul, ol, li {
 }
 
 #header .header-middile {
-	padding: 35px 0;
+	padding: 45px 0;
 	font-size: 14px;
 }
 
@@ -91,18 +101,100 @@ ul, ol, li {
 	column-gap: 10px;
 }
 
-#header .header-middile .icon-box .icon {
+#header .header-middile .icon-box i {
 	padding-right: 5px;
 	font-size: 30px;
 	color: #008435;
 }
 
 #header .header-middile .icon-box h3 {
-	font-size: 18px;
+	font-size: 14px;
 	color: #282828;
+	font-family: "Poppins", sans-serif;
 }
 
 #header .header-middile .icon-box p {
 	padding-top: 10px;
-	font-size: 15px;
+	font-size: 12px;
+	font-family: "Poppins", sans-serif;
+}
+
+#header nav .container {
+	position: relative;
+}
+
+#header nav .nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	background-color: #008435;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	transform: translateY(-50%);
+}
+
+#header nav .nav-wrapper a {
+	color: #F6F8FD;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0 27px;
+}
+
+#header nav .nav-wrapper ul, #header nav .nav-wrapper li {
+	display: inline-block;
+}
+
+#header nav .nav-wrapper .header-cta {
+	background-color: #282828;
+	padding: 20px 0;
+	width: 200px;
+	text-align: center;
+}
+
+#banner-section {
+	background: url("../images/banner_slider_1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#banner-section .overlay {
+	padding: 210px 0;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#banner-section .inner-section h2 {
+	color: #F6F8FD;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	margin-bottom: 24px;
+	font-size: 72px;
+	line-height: 60px;
+}
+
+#banner-section .inner-section p {
+	color: #F6F8FD;
+	font-family: "open-sans", sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 34px;
+	padding: 0px 80px;
+}
+
+.btn {
+	font-size: 16px;
+	font-weight: 600;
+	font-family: "Poppins", sans-serif;
+	color: #F6F8FD;
+	padding: 15px 40px;
+	border: 1px solid #008435;
+}
+
+.fill {
+	margin-left: 18px;
+	border-color: #F6F8FD;
+}
+
+.btn:hover {
+	background-color: darkgreen;
 }

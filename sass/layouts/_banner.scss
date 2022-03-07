@@ -1,0 +1,38 @@
+#banner-section {
+    background: url('#{$img_src}/banner_slider_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .overlay {
+        padding: 210px 0; 
+        background-color: rgba(0, 0, 0, .4);
+    }
+
+        .inner-section {
+            
+
+            h2 {
+                color: $secondary-bg;
+                font-family: $primary-font;
+                font-weight: 700;
+                margin-bottom: 24px;
+                font-size: 72px;
+                line-height: 60px;
+            }
+
+
+            p {
+                color: $secondary-bg;
+                font-family: $body-font;
+                font-size: 18px;
+                line-height: 30px;
+                margin-bottom: 34px;
+                padding: 0px 80px;
+            } 
+            
+        }
+
+        
+
+    
+}

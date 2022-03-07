@@ -19,6 +19,7 @@
            
             a {
                 color: $secondary-bg;
+                padding-right: 30px;
 
                 i {
                     margin-right: 5px;
@@ -40,7 +41,7 @@
         
     }
     .header-middile {
-        padding: 35px 0;
+        padding: 45px 0;
         font-size: 14px;
         
         .icon-box {
@@ -48,28 +49,61 @@
             align-items: center;
             column-gap: 10px;
 
-            .icon {
+            i {
                 padding-right: 5px;
                 font-size: 30px;
                 color: $primary-bg;
             }
             
             h3 {
-                font-size: 18px;
+                font-size: 14px;
                 color:$headding-clr;
+                font-family:$primary-font;
             }
 
             p {
                 padding-top: 10px;
-                font-size: 15px;
+                font-size: 12px;
+                font-family:$primary-font;
             }         
             
         }
+    }
+    nav {
+        .container {
+            position: relative;
+        }
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-between;
+            background-color: $primary-bg;
+            align-items: center;
+            position: absolute;
+            width: 100%;
+            transform: translateY(-50%);
 
-        
-        
+            a {
+                color: $secondary-bg;
+                font-family: $primary-font;
+                font-size: 14px;
+                font-weight: 500;
+                padding: 0 27px;
+                
 
-        
+            }
+            ul,li {
+                display: inline-block;
+
+            }
+            .header-cta {
+                background-color: $headding-clr;
+                padding: 20px 0;
+                width: 200px;
+                text-align: center;
+                
+            }
+            
+        }
     }
 }
     
