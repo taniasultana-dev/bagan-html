@@ -1,0 +1,37 @@
+#promo-section {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #FFFFFF;
+    
+    
+    .promo-content-item {
+        font-family: $primary-font;
+        
+        i {
+        margin-bottom: 28px;
+        display: block;
+        font-size: 48px;
+        color: #008435;
+    
+        }
+
+        h3 {
+        font-size: 22px;
+        line-height: 28px;
+        }
+
+        p {
+        padding:0 20px;
+        color: #6d6d6d;
+        font-size: 14px;
+        margin-bottom: 20px;
+        line-height: 26px;
+        margin: 0 0 15px;
+        }
+        
+        
+        
+
+    } 
+}
+    

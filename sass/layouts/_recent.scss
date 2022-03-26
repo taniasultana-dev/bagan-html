@@ -1,0 +1,54 @@
+#recent-work-section {
+    padding: 100px 0;
+
+    .section-title-item{
+        text-align: center;
+        position: relative;
+
+
+        .section-title {
+            font-weight: 700;
+            font-family: $primary-font;
+            margin-bottom: 40px;
+            position: relative;
+            z-index: 1;
+            font-size: 48px;
+            line-height: 55px;
+
+            span {
+                font-size: 16px;
+                color: $primary-bg;
+                display: block;
+                font-weight: 500;
+                
+                }
+
+
+            }
+
+
+
+    }
+    .recent-folio-menu{
+        text-align: center;
+        margin-bottom: 30px;
+
+         ul li{
+            font-size: 14px;
+            font-weight: 600;
+            color: $headding-clr;
+            padding: 0 16px;
+            font-family: $primary-font;
+        
+         }
+         ul li::after{
+             content: "/";
+             
+         }
+         .active{
+             color: $primary-bg;
+         }
+    }
+
+
+}
