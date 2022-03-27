@@ -71,6 +71,31 @@ a, span, label, input, textarea, button {
 	padding-left: 50px;
 }
 
+.sec-head {
+	font-family: "Poppins", sans-serif;
+}
+
+.sec-head__subtitle {
+	font-size: 16px;
+	font-weight: 500;
+	color: #008435;
+}
+
+.sec-head__title {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 65px;
+	color: #101010;
+}
+
+.sec-head--center {
+	text-align: center;
+}
+
+.sec-head--white * {
+	color: #ffffff;
+}
+
 #header .header-top {
 	background-color: #008435;
 	color: #ffffff;
@@ -171,4 +196,79 @@ a, span, label, input, textarea, button {
 #banner-section .overlay {
 	padding: 220px 0;
 	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.portfolio {
+	padding: 120px 0;
+}
+
+.works {
+	padding: 60px 0;
+}
+
+.works__filter {
+	text-align: center;
+}
+
+.works__filter li {
+	display: inline-block;
+	font-family: "Poppins", sans-serif;
+	cursor: pointer;
+}
+
+.works__filter li:not(:last-child):after {
+	display: inline-block;
+	margin: 0 10px;
+	color: #ededed;
+	content: '/';
+}
+
+.works__cards {
+	display: flex;
+	padding-top: 50px;
+}
+
+.works__cards__item {
+	position: relative;
+	overflow: hidden;
+}
+
+.works__cards__item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.works__cards__item__image {
+	margin-bottom: -4px;
+	transition: .3s;
+}
+
+.works__cards__item:hover .works__cards__item__image {
+	transform: scale(1.2);
+}
+
+.works__cards__item__icon, .works__cards__item__title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	color: #ffffff;
+}
+
+.works__cards__item__icon {
+	width: 60px;
+	height: 50px;
+	z-index: 10;
+	background: #005121;
+	font-size: 26px;
+	line-height: 50px;
+}
+
+.works__cards__item__title {
+	background: rgba(0, 132, 53, 0.8);
+	width: 100%;
+	padding: 6px;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
 }

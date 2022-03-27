@@ -1,0 +1,26 @@
+.sec-head {
+    font-family: $primary-font;
+
+    &__subtitle {
+        font-size: 16px;
+        font-weight: 500;
+        color: $primary;
+    }
+
+    &__title {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 65px;
+        color: $black-color;
+    }
+
+    &--center {
+        text-align: center;
+    }
+
+    &--white {
+       * {
+            color: $white;
+        }
+    }
+}

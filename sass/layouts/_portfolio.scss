@@ -1,0 +1,85 @@
+.portfolio {
+    padding: 120px 0;
+}
+
+.works {
+    padding: 60px 0;
+
+    &__filter {
+        text-align: center;
+
+        li {
+            display: inline-block;
+            font-family: $primary-font;
+            cursor: pointer;
+            
+            // &::after {
+            //     display: inline-block;
+            //     content: '/';
+            // }
+
+            &:not( :last-child ):after {
+                display: inline-block;
+                margin: 0 10px;
+                color: $border-color;
+                content: '/';
+            }
+
+            // &:last-child:after {
+            //     display: none;
+            // }
+        }
+    }
+
+    &__cards {
+        display: flex;
+        padding-top: 50px;
+
+        &__item {
+            position: relative;
+            overflow: hidden;
+
+            &:not(:last-child) {
+                margin-right: 50px;
+            }
+
+            &__image {
+                margin-bottom: -4px;
+                transition: .3s;
+            }
+
+            &:hover &__image {
+                transform: scale(1.2);
+            }
+
+            &__icon, &__title {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                text-align: center;
+                color: $white;
+            }
+
+            &__icon {
+                width: 60px;
+                height: 50px;
+                z-index: 10;
+                background: darken($primary, 10);
+                font-size: 26px;
+                line-height: 50px;
+            }
+
+            &__title {
+                background: rgba( $primary, .8 );
+                width: 100%;
+                padding: 6px;
+                box-sizing: border-box;
+                font-family: $primary-font;
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+        }
+
+    }
+}
